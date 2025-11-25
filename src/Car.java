@@ -3,6 +3,14 @@ public class Car {
     private String model;
     private String year;
 
+    public String getYear() {
+        return year;
+    }
+
+    public void setYear(String year) {
+        this.year = year;
+    }
+
     public String getMake() {
         return make;
     }
