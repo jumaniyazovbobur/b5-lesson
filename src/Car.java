@@ -1,13 +1,13 @@
 public class Car {
     private String make;
     private String model;
-    private int year;
+    private String year;
 
-    public int getYear() {
+    public String getYear() {
         return year;
     }
 
-    public void setYear(int year) {
+    public void setYear(String year) {
         this.year = year;
     }
 
