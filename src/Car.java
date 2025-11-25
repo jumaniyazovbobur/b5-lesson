@@ -1,15 +1,7 @@
 public class Car {
     private String make;
     private String model;
-    private int year;
-
-    public int getYear() {
-        return year;
-    }
-
-    public void setYear(int year) {
-        this.year = year;
-    }
+    private String year;
 
     public String getMake() {
         return make;
